@@ -1,1 +1,88 @@
 # t1_frontend
+# Trabalho Final
+- Giovani Stuchi |RA: 24.00645-9
+- Ian Akel  | RA: 24.10058-8
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professores</title>
+
+<style>
+        body {
+            background-color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+
+            padding: 10px;
+            margin: 0;
+            text-align: center;
+            background-color: whitesmoke;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2em;
+            color: black;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: whitesmoke;
+        }
+        .todos-os-livros {
+            display: flex;
+            justify-content: space-around;
+        }
+        .livros {
+            width: 200px;
+            margin: 15px;
+            padding: 10px;
+            text-align: center;
+            border: 1px solid gainsboro;
+            border-radius: 10px;
+            background-color: white;
+            
+        }
+        .livros img {
+            width: 100px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Livros</h1>
+    </header>
+    <div class="container">
+        <div class="todos-os-livros">
+            <!-- Livro 1 -->
+            <div class="livros">
+                <img src="https://images.tcdn.com.br/img/img_prod/1043052/ayrton_senna_uma_lenda_a_toda_velocidade_6133_1_e6021c28fab7f5344e6ddfa9479c41bc.jpg" alt="Livro 1">
+                <h3>Título: Ayrton Senna - Uma Lenda A Toda Velocidade</h3>
+                <p>Autor: Christopher Hilton</p>
+            </div>
+            <!-- Livro 2 -->
+            <div class="livros">
+                <img src="https://m.media-amazon.com/images/I/41B4tEKwt3L._SY445_SX342_.jpg" alt="Livro 2">
+                <h3>Título: Python Sem Mistérios</h3>
+                <p>Autor: Joel Saade </p>
+            </div>
+            <!-- Livro 3 -->
+            <div class="livros">
+                <img src="https://m.media-amazon.com/images/I/617iS--XOQL._AC_UF1000,1000_QL80_.jpg" alt="Livro 3">
+                <h3>Título: As 48 Leis do Poder</h3>
+                <p>Autor: Robert Greene</p>
+            </div>
+        </div>
+    </div>
+</style>
+</body>
+</html>
